@@ -4,25 +4,25 @@ import { Star, Quote } from 'lucide-react';
 const testimonials = [
   {
     name: 'Pierrot',
-    role: 'CEO, African Football Academy',
+    role: 'MD',
     company: 'African Football Academy',
-    image: 'https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
-    quote: 'Tech Nova transformed our product visualization completely. The 3D rendering quality is exceptional and performance is outstanding.',
-    rating: 5
-  },
-  {
-    name: 'Herve Moukoury',
-    role: 'CEO MSI TV',
-    company: 'MSI TV',
-    image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    image: 'https://res.cloudinary.com/dtsblzjzn/image/upload/v1749280895/pierrot_swphuv.jpg',
     quote: 'Working with Tech Nova was a game-changer. Their WebGL expertise helped us create an interactive experience that wowed our users.',
     rating: 5
   },
   {
+    name: 'Herve Moukoury',
+    role: 'MD',
+    company: 'MSI TV',
+    image: 'https://res.cloudinary.com/dtsblzjzn/image/upload/v1749280895/herve_m_c8i52r.jpg',
+    quote: 'Tech Nova transformed our product visualization completely. The 3D rendering quality is exceptional and performance is outstanding.',
+    rating: 5
+  },
+  {
     name: 'Mac Donald',
-    role: 'CEO, Horizon Image',
+    role: 'CEO',
     company: 'Horizon Image',
-    image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop',
+    image: 'https://res.cloudinary.com/dtsblzjzn/image/upload/v1749280896/macd_owoffx.jpg',
     quote: 'The team delivered exactly what we needed - fast, beautiful, and reliable. Our conversion rates increased by 40% after the launch.',
     rating: 5
   }
