@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Zap, Mail, Phone, MapPin, Twitter, Linkedin, Github } from 'lucide-react';
-import logo from '../img/TECH_NOVA_bkg-removebg-preview.png'
+import logo from '../img/twilight logo.png'
 
 const Footer = () => {
   return (
