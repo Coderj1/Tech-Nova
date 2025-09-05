@@ -31,7 +31,7 @@ const Hero = () => {
 
           {/* Subheading */}
           <p className="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Tech Nova delivers cutting-edge web rendering services, 3D visualization, 
+            Twilight delivers cutting-edge web rendering services, 3D visualization, 
             and interactive experiences that bring your digital concepts to life with 
             unparalleled quality and performance.
           </p>

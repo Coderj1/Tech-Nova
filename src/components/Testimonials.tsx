@@ -15,7 +15,7 @@ const testimonials = [
     role: 'MD',
     company: 'MSI TV',
     image: 'https://res.cloudinary.com/dtsblzjzn/image/upload/v1749280895/herve_m_c8i52r.jpg',
-    quote: 'Tech Nova transformed our product visualization completely. The 3D rendering quality is exceptional and performance is outstanding.',
+    quote: 'Twilight transformed our product visualization completely. The 3D rendering quality is exceptional and performance is outstanding.',
     rating: 5
   },
   {

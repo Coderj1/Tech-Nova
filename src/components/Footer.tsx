@@ -58,7 +58,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-slate-400" />
-                <span className="text-slate-400 text-sm">techiinovatorgen@gmail.com</span>
+                <span className="text-slate-400 text-sm">twilightinnovativedev@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-slate-400" />
@@ -75,7 +75,7 @@ const Footer = () => {
         <div className="border-t border-slate-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-slate-400 text-sm">
-              © 2025 Tech Nova. All rights reserved.
+              © 2025 Twilight. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-slate-400 hover:text-cyan-400 transition-colors text-sm">Privacy Policy</a>
