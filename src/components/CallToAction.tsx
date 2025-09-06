@@ -39,7 +39,7 @@ const CallToAction = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-2xl mx-auto">
             <div className="flex items-center justify-center space-x-3 bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-lg p-6 hover:border-cyan-400/50 transition-colors duration-300">
               <Mail className="h-5 w-5 text-cyan-400" />
-              <span className="text-slate-300">techiinovatorgen@gmail.com</span>
+              <span className="text-slate-300">twilightinnovativedev@gmail.com</span>
             </div>
             <div className="flex items-center justify-center space-x-3 bg-slate-800/30 backdrop-blur-sm border border-slate-700 rounded-lg p-6 hover:border-cyan-400/50 transition-colors duration-300">
               <Phone className="h-5 w-5 text-cyan-400" />
