@@ -72,9 +72,11 @@ const TechnologyStack = () => {
           <p className="text-slate-300 mb-6">
             Need a technology that's not listed? We're always exploring new tools and frameworks.
           </p>
-          <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-500 hover:to-cyan-400 transition-all duration-300 transform hover:scale-105">
-            Discuss Your Requirements
-          </button>
+          <a href="https://wa.me/237695760989" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+            <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-500 hover:to-cyan-400 transition-all duration-300 transform hover:scale-105">
+              Discuss Your Requirements
+            </button>
+          </a>
         </div>
       </div>
     </section>
