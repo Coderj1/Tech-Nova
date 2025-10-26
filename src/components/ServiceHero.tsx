@@ -30,7 +30,7 @@ const ServiceHero = () => {
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-slate-300 mb-4 leading-relaxed max-w-3xl mx-auto">
             Comprehensive web rendering solutions that combine cutting-edge technology 
             with exceptional performance to deliver outstanding digital experiences.
           </p>
