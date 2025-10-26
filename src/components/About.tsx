@@ -4,12 +4,12 @@ import { Award, Users, Clock, Shield } from 'lucide-react';
 const stats = [
   {
     icon: Award,
-    value: '10+',
+    value: '5+',
     label: 'Years Experience'
   },
   {
     icon: Users,
-    value: '200+',
+    value: '50+',
     label: 'Happy Clients'
   },
   {
