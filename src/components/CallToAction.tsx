@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Mail, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const CallToAction = () => {
   return (
@@ -25,11 +26,12 @@ const CallToAction = () => {
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
+           <Link to='/services'>
             <button className="group bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:from-blue-500 hover:to-cyan-400 transition-all duration-300 transform hover:scale-105 flex items-center space-x-2">
               <span>Start Your Project</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
-            
+           </Link>
             <button className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:border-cyan-400/50 hover:bg-slate-800/70 transition-all duration-300">
               View Portfolio
             </button>
