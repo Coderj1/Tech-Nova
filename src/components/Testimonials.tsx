@@ -7,7 +7,7 @@ const testimonials = [
     role: 'MD',
     company: 'African Football Academy',
     image: 'https://res.cloudinary.com/dtsblzjzn/image/upload/v1749280895/pierrot_swphuv.jpg',
-    quote: 'Working with Twilight was a game-changer. Their WebGL expertise helped us create an interactive experience that wowed our users.',
+    quote: 'Working with Twilight was a game-changer. Their expertise helped us create an interactive experience for our users.',
     rating: 5
   },
   {
