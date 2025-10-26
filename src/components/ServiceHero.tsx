@@ -3,7 +3,7 @@ import { Sparkles } from 'lucide-react';
 
 const ServiceHero = () => {
   return (
-    <section className="relative py-24 overflow-hidden">
+    <section className="relative py-12 overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-blue-950/20 to-cyan-950/20"></div>
       
