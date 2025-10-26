@@ -34,13 +34,13 @@ const About = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
               Why Choose   
               <span className="bg-gradient-to-r ml-1 from-blue-700 to-cyan-600 bg-clip-text text-transparent">
-                 Tech Nova?
+                 Twilight?
               </span>
             </h2>
             <p className="text-xl text-slate-300 mb-8 leading-relaxed">
               We're not just another web service company. We're specialists in 
               advanced web rendering technologies, pushing the limits of what's possible 
-              in modern browsers.
+              in modern technology and innovation.
             </p>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -50,7 +50,7 @@ const About = () => {
                 <div>
                   <h3 className="text-white font-semibold mb-2">Expert Team</h3>
                   <p className="text-slate-400">
-                    Our developers are certified experts in WebGL, Three.js, and modern rendering pipelines.
+                    Our developers are certified experts in Web and Graphics build up and modern rendering pipelines.
                   </p>
                 </div>
               </div>
