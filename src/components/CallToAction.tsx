@@ -19,7 +19,7 @@ const CallToAction = () => {
             </span>
           </h2>
           <p className="text-xl text-slate-300 mb-12 leading-relaxed">
-            Let's discuss your project and explore how Tech Nova can bring your vision to life 
+            Let's discuss your project and explore how Twilight can bring your vision to life 
             with cutting-edge web rendering technology.
           </p>
 
