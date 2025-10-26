@@ -99,9 +99,11 @@ const ProcessSection = () => {
             Let's discuss your project requirements and create a custom development plan 
             that brings your vision to life.
           </p>
-          <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-500 hover:to-cyan-400 transition-all duration-300 transform hover:scale-105">
-            Schedule a Consultation
-          </button>
+          <a href="https://wa.me/237695760989" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">
+            <button className="bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold hover:from-blue-500 hover:to-cyan-400 transition-all duration-300 transform hover:scale-105">
+              Schedule a Consultation
+            </button>
+          </a>
         </div>
       </div>
     </section>
