@@ -1,10 +1,15 @@
-import React from 'react';
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Background3D from './Background3D';
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    
+     <div className="">
+          <div className="absolute opacity-25 inset-0">
+              <Background3D />
+          </div>
+    <section className="relative flex items-center justify-center overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-950 via-blue-950/20 to-cyan-950/20"></div>
       
@@ -17,7 +22,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-full px-4 py-2 mt-4 sm:mb-8">
+          <div className="inline-flex items-center space-x-2 bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-full px-4 py-2 mt-4 mb-4 sm:mb-8">
             <Sparkles className="h-4 w-4 text-cyan-400" />
             <span className="text-sm text-slate-300">Next-Generation Web Rendering</span>
           </div>
@@ -31,10 +36,9 @@ const Hero = () => {
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl md:text-2xl text-slate-300 mb-12 leading-relaxed max-w-3xl mx-auto">
-            Twilight delivers cutting-edge web rendering services, 3D visualization, 
-            and interactive experiences that bring your digital concepts to life with 
-            unparalleled quality and performance.
+          <p className="text-sm md:text-xl text-slate-300 mb-12 leading-relaxed max-w-xl mx-auto">
+           cutting-edge web rendering services, 3D visualization, 
+            and interactive experiences
           </p>
 
           {/* CTA buttons */}
@@ -48,7 +52,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20 pt-12 border-t border-slate-800">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-2 mt-20 pt-12 border-t border-slate-800">
             <div className="text-center">
               <div className="text-3xl md:text-4xl font-bold text-white mb-2">10+</div>
               <div className="text-slate-400">Projects Delivered</div>
@@ -65,6 +69,7 @@ const Hero = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
